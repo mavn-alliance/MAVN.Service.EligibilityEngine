@@ -1,0 +1,32 @@
+EligibilityEngineService:
+    Db:
+        LogsConnString:
+            settings-key: EligibilityEngineService-LogsConnString
+            types:
+              - AzureTableStorage
+    ConversionRate:
+        TokenCurrency:
+            settings-key: Constant-TokenSymbol
+        BaseFiatCurrency:
+            settings-key: Constant-BaseCurrencyCode
+SlackNotifications:
+    AzureQueue:
+        ConnectionString:
+            settings-key: SlackNotificationsConnString
+            types:
+                - AzureTableStorage
+        QueueName:
+            settings-key: SlackQueueName
+CampaignServiceClient:
+    ServiceUrl:
+        settings-key: CampaignServiceUrl
+PartnerManagementServiceClient:
+    ServiceUrl:
+        settings-key: PartnerManagementServiceUrl
+MonitoringServiceClient:
+    MonitoringServiceUrl:
+        settings-key: MonitoringServiceUrl
+CurrencyConvertorServiceClient:
+    ServiceUrl:
+        settings-key: CurrencyConvertorServiceUrl
+
