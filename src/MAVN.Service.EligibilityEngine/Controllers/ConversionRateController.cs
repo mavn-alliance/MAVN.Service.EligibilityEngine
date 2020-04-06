@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Net;
 using System.Threading.Tasks;
 using AutoMapper;
@@ -12,8 +12,8 @@ using MAVN.Service.EligibilityEngine.Domain.Exceptions;
 using MAVN.Service.EligibilityEngine.Domain.Models;
 using MAVN.Service.EligibilityEngine.Domain.Services;
 using Microsoft.AspNetCore.Mvc;
-using ConversionSource = Lykke.Service.EligibilityEngine.Client.Enums.ConversionSource;
-using ConvertAmountByConditionResponse = Lykke.Service.EligibilityEngine.Client.Models.ConversionRate.Responses.ConvertAmountByConditionResponse;
+using ConversionSource = MAVN.Service.EligibilityEngine.Client.Enums.ConversionSource;
+using ConvertAmountByConditionResponse = MAVN.Service.EligibilityEngine.Client.Models.ConversionRate.Responses.ConvertAmountByConditionResponse;
 
 namespace MAVN.Service.EligibilityEngine.Controllers
 {
