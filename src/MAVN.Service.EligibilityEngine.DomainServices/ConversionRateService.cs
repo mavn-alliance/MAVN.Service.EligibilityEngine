@@ -1,19 +1,19 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Lykke.Service.Campaign.Client;
-using Lykke.Service.Campaign.Client.Models.BurnRule.Requests;
+using MAVN.Service.Campaign.Client;
+using MAVN.Service.Campaign.Client.Models.BurnRule.Requests;
 using MAVN.Service.EligibilityEngine.Domain.Exceptions;
 using MAVN.Service.EligibilityEngine.Domain.Models;
 using MAVN.Service.EligibilityEngine.Domain.Services;
-using Lykke.Service.PartnerManagement.Client;
+using MAVN.Service.PartnerManagement.Client;
 using Falcon.Numerics;
-using Lykke.Service.Campaign.Client.Models.BurnRule.Responses;
-using Lykke.Service.Campaign.Client.Models.Campaign.Responses;
-using Lykke.Service.Campaign.Client.Models.Condition;
-using Lykke.Service.Campaign.Client.Models.Enums;
-using Lykke.Service.CurrencyConvertor.Client;
+using MAVN.Service.Campaign.Client.Models.BurnRule.Responses;
+using MAVN.Service.Campaign.Client.Models.Campaign.Responses;
+using MAVN.Service.Campaign.Client.Models.Condition;
+using MAVN.Service.Campaign.Client.Models.Enums;
+using MAVN.Service.CurrencyConvertor.Client;
 
 namespace MAVN.Service.EligibilityEngine.DomainServices
 {

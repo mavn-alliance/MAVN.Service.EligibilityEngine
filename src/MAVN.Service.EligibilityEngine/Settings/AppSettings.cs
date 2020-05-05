@@ -1,8 +1,8 @@
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
 using Lykke.Sdk.Settings;
-using Lykke.Service.Campaign.Client;
-using Lykke.Service.CurrencyConvertor.Client;
-using Lykke.Service.PartnerManagement.Client;
+using MAVN.Service.Campaign.Client;
+using MAVN.Service.CurrencyConvertor.Client;
+using MAVN.Service.PartnerManagement.Client;
 
 namespace MAVN.Service.EligibilityEngine.Settings
 {

@@ -5,10 +5,10 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Falcon.Numerics" Version="0.1.1" />
-    <PackageReference Include="Falcon.Service.CurrencyConvertor.Client" Version="4.0.0" />
-    <PackageReference Include="Falcon.Service.PartnerManagement.Client" Version="2.3.0" />
     <PackageReference Include="Lykke.Common" Version="7.5.0" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="MAVN.Service.CurrencyConverter.Client" Version="1.0.1" />
+    <PackageReference Include="MAVN.Service.PartnerManagement.Client" Version="1.0.4" />
   </ItemGroup>
 </Project>
