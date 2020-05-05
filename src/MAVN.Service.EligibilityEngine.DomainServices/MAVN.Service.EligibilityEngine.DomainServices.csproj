@@ -5,7 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Falcon.Numerics" Version="0.1.1" />
-    <PackageReference Include="Falcon.Service.Campaign.Client" Version="7.4.0" />
+    <PackageReference Include="MAVN.Service.Campaign.Client" Version="1.0.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MAVN.Service.EligibilityEngine.Domain\MAVN.Service.EligibilityEngine.Domain.csproj" />

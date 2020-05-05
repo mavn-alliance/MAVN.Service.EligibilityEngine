@@ -1,8 +1,8 @@
-using Autofac;
-using Lykke.Service.Campaign.Client;
-using Lykke.Service.CurrencyConvertor.Client;
+﻿using Autofac;
+using MAVN.Service.Campaign.Client;
+using MAVN.Service.CurrencyConvertor.Client;
 using MAVN.Service.EligibilityEngine.Settings;
-using Lykke.Service.PartnerManagement.Client;
+using MAVN.Service.PartnerManagement.Client;
 using Lykke.SettingsReader;
 
 namespace MAVN.Service.EligibilityEngine.Modules

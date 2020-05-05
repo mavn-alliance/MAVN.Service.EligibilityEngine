@@ -1,10 +1,10 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Falcon.Numerics;
-using Lykke.Service.CurrencyConvertor.Client;
-using Lykke.Service.CurrencyConvertor.Client.Models.Responses;
+using MAVN.Service.CurrencyConvertor.Client;
+using MAVN.Service.CurrencyConvertor.Client.Models.Responses;
 using MAVN.Service.EligibilityEngine.Domain.Exceptions;
 using MAVN.Service.EligibilityEngine.DomainServices;
 using Moq;
