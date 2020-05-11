@@ -8,7 +8,7 @@ using MAVN.Service.EligibilityEngine.Domain.Exceptions;
 using MAVN.Service.EligibilityEngine.Domain.Models;
 using MAVN.Service.EligibilityEngine.Domain.Services;
 using MAVN.Service.PartnerManagement.Client;
-using Falcon.Numerics;
+using MAVN.Numerics;
 using MAVN.Service.Campaign.Client.Models.BurnRule.Responses;
 using MAVN.Service.Campaign.Client.Models.Campaign.Responses;
 using MAVN.Service.Campaign.Client.Models.Condition;
