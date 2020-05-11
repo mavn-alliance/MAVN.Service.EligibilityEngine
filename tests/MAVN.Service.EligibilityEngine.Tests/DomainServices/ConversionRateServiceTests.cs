@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Falcon.Numerics;
+using MAVN.Numerics;
 using MAVN.Service.Campaign.Client;
 using MAVN.Service.Campaign.Client.Models.BurnRule.Requests;
 using MAVN.Service.Campaign.Client.Models.BurnRule.Responses;

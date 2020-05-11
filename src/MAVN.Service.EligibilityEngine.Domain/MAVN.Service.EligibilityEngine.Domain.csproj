@@ -4,11 +4,11 @@
     <Version>1.0.0</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Falcon.Numerics" Version="0.1.1" />
     <PackageReference Include="Lykke.Common" Version="7.5.0" />
+    <PackageReference Include="MAVN.Numerics" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MAVN.Service.CurrencyConverter.Client" Version="1.0.1" />
-    <PackageReference Include="MAVN.Service.PartnerManagement.Client" Version="1.0.4" />
+    <PackageReference Include="MAVN.Service.CurrencyConverter.Client" Version="1.2.0" />
+    <PackageReference Include="MAVN.Service.PartnerManagement.Client" Version="1.4.0" />
   </ItemGroup>
 </Project>
